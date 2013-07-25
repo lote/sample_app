@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
+gem 'pg'
+	
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -10,6 +12,7 @@ group :development, :test do
 end
 
 group :development do
+
 	gem 'annotate', '2.5.0'
 end
 
